@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+body{
+    max-height: 100vh;
+    margin: 1.5rem 5rem;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header a{
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #092B4C;
+    line-height: .5rem;
+    letter-spacing: .1rem;
+}
+header .logo{
+    height: 27px;
+    margin-right: .5rem;
+}
+.main-hero{
+    display: flex;
+    justify-content:space-evenly;
+}
+.main-hero .left-side{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    max-height: 100vh;
+    width: 50vw;
+}
+.main-hero .right-side{
+    top: 0;
+    right: 0;
+    max-height: 100vh;
+}
+.main-hero .left-side h2{
+    font-size: 40px;
+}
+.main-hero .left-side .time p{
+    font-size: 18px;
+    margin-bottom: 1rem;
+}
+.main-hero .left-side .time .date-left li{
+    display: inline-block;
+    margin-top: .4rem;
+    padding-left: 3rem;
+    padding-top: 2rem;
+    padding-right: 3rem;
+    padding-bottom: 2rem;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    font-size: 30px;
+}
+.main-hero .left-side .time .date-left .small{
+    font-size: 12px;
+    color: #00E9C4;
+    font-weight: 200px;
+}
+.main-hero .left-side .contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin-top: 3rem;
+}
+.main-hero .left-side .contact .message{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.main-hero .left-side .contact .message img{
+    margin-bottom: 1rem;
+}
+.main-hero .left-side .contact .message p{
+    margin-left: 1rem;
+}
+.main-hero .left-side .contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+.main-hero .left-side .contact .phone{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
+.main-hero .left-side .contact .phone img{
+    margin-bottom: 1rem;
+}
+.main-hero .left-side .contact .phone p{
+    margin-left: 1rem;
+}
